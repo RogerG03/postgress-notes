@@ -1,0 +1,11 @@
+# Configuración local, credenciales, respaldos y datos: no son material didáctico.
+.env
+.env.*
+!.env.example
+.pgpass
+pgpass.conf
+*.dump
+*.backup
+*.age
+backups/
+pgdata/
