@@ -1,5 +1,16 @@
 # Retomar desde otra PC
 
+## Referencia vigente del producto — 7 de noviembre de 2026
+
+El modelo conceptual y lógico de OdontoSoft ya está aprobado (decisión del 4 de noviembre), y Prisma fue elegido con PostgreSQL. Los capítulos de propuesta y laboratorios anteriores conservan su valor didáctico; no son el esquema de producto ni deben reiniciar decisiones aprobadas.
+
+- [Índice de diagramas y enlace permanente de edición](https://github.com/RogerG03/odonto-soft/blob/main/docs/diagrams/README.md).
+- [ER v2 editable, siete páginas](https://github.com/RogerG03/odonto-soft/blob/main/docs/diagrams/odonto-soft-modelo-logico-v2-erd.drawio).
+- [Diccionario de datos y detalles físicos pendientes](https://github.com/RogerG03/odonto-soft/blob/main/docs/diagrams/modelo-logico-v1.md).
+- [Cierre y siguiente bloque de backend](https://github.com/RogerG03/odonto-soft/blob/main/docs/handoff-2026-11-04.md).
+
+La app sigue con mocks, sin migración de producto ni Prisma instalado/conectado. Primero verificar el entorno del equipo destino; la BD de aprendizaje de otra PC no se transfiere con Git. Bloque 12 del laboratorio sigue sin confirmación; no ejecutarlo como migración de producto.
+
 Pausa solicitada el 2 de noviembre de 2026. No continuar implementación ni ejecutar DDL hasta que el usuario retome. Este documento prevalece sobre los estados intermedios.
 
 ## Para el agente

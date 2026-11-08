@@ -1,5 +1,16 @@
 # PostgreSQL: aprender, probar y explicar
 
+## Referencia vigente del producto — 7 de noviembre de 2026
+
+El modelo conceptual y lógico de OdontoSoft ya está aprobado (decisión del 4 de noviembre), y Prisma fue elegido con PostgreSQL. Los capítulos de propuesta y laboratorios anteriores conservan su valor didáctico; no son el esquema de producto ni deben reiniciar decisiones aprobadas.
+
+- [Índice de diagramas y enlace permanente de edición](https://github.com/RogerG03/odonto-soft/blob/main/docs/diagrams/README.md).
+- [ER v2 editable, siete páginas](https://github.com/RogerG03/odonto-soft/blob/main/docs/diagrams/odonto-soft-modelo-logico-v2-erd.drawio).
+- [Diccionario de datos y detalles físicos pendientes](https://github.com/RogerG03/odonto-soft/blob/main/docs/diagrams/modelo-logico-v1.md).
+- [Cierre y siguiente bloque de backend](https://github.com/RogerG03/odonto-soft/blob/main/docs/handoff-2026-11-04.md).
+
+La app sigue con mocks, sin migración de producto ni Prisma instalado/conectado. Primero verificar el entorno del equipo destino; la BD de aprendizaje de otra PC no se transfiere con Git. Bloque 12 del laboratorio sigue sin confirmación; no ejecutarlo como migración de producto.
+
 Apuntes en español para entender PostgreSQL desde cero y aprender a conectarlo con una aplicación. El nombre del repositorio conserva `postgress-notes`; el motor se llama **PostgreSQL**.
 
 Partimos de preguntas reales de una aplicación de clínica: dónde se guardan los datos, cómo se relacionan, cómo acceden varias personas y cómo recuperarlos. Los ejemplos son ficticios y no definen el esquema de ninguna aplicación existente.
