@@ -1,5 +1,7 @@
 # PostgreSQL: aprender, probar y explicar
 
+Ampliación acordada el 7 de noviembre: tabla `features(code, is_active)` para habilitar funcionalidades por instalación. [Contrato y tabla](https://github.com/RogerG03/odonto-soft/blob/main/docs/installation-features.md). Frontend adaptado con filas mock (ortodoncia false); tabla física y conexión pendientes. No mezclar estas filas con permisos individuales ni borrar historia al desactivar. El ER anterior todavía no incluye esta ampliación.
+
 ## Referencia vigente del producto — 7 de noviembre de 2026
 
 El modelo conceptual y lógico de OdontoSoft ya está aprobado (decisión del 4 de noviembre), y Prisma fue elegido con PostgreSQL. Los capítulos de propuesta y laboratorios anteriores conservan su valor didáctico; no son el esquema de producto ni deben reiniciar decisiones aprobadas.
